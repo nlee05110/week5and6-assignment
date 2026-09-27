@@ -15,7 +15,7 @@ app.get("/search",  (req, res) => {
   console.log("Search keyword:", keyword)
   res.send(`
     <!doctype html>
-    <html>
+    <html lang="en">
       <head>
         <title>Search Result</title>
       </head>
@@ -35,7 +35,7 @@ app.post("/register",  (req, res) => {
   console.log("Registered: ", req.body)
   res.send(`
     <!doctype html>
-    <html>
+    <html lang="en">
       <head><title>Registration Confirmation</title></head>
       <body>
         <h1>Registration Successful</h1>
