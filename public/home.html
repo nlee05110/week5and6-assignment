@@ -6,6 +6,34 @@
     <title>Home Page</title>
   </head>
   <body>
-    <h2>Home Page</h2>
+    <form action="/search" method="GET">
+      <div>
+        <label for="keyword">Keyword: </label>
+        <br>
+        <input type="text" id="keyword" name="keyword">
+      </div>
+      <br>
+      <div>
+        <button type="submit" class="Search">Search</button>
+      </div>
+      <br>
+    </form>
+
+  <form action="/register" method="POST">
+    <div>
+      <label for="username">username: </label>
+      <br>
+      <input type="text" id="username" name="username">
+    </div>
+    <div>
+      <label for="email">email: </label>
+      <br>
+      <input type="text" id="email" name="email">
+    </div>
+    <br>
+    <div>
+      <button type="submit">Register</button>
+    </div>
+  </form>
   </body>
 </html>
